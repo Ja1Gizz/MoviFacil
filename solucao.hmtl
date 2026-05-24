@@ -37,6 +37,12 @@
                 </div>
             </div>
         </section>
+        <section class="overview">
+            <div class="feature-card">
+                <h2 class="section-title">Como funciona?</h2>
+                <p class="section-intro">O aplicativo permite que o usuário registre viagens, acumule pontos por cada uso do transporte público e complete missões que geram créditos extras. Esses pontos podem ser trocados por descontos ou por passagens gratuitas.</p>
+            </div>
+        </selection>
     </main>
 </body>
 </html>
