@@ -28,5 +28,15 @@
             </nav>
         </div>
     </header>
-  </body>
+   <main class="container">
+        <section class="hero hero-simple">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1><span class="material-symbols-outlined brand-purple">search_gear</span>Uma solução real para o transporte público<span class="material-symbols-outlined brand-blue">bus_map_pin</span></h1>
+                    <p>Movi Fácil transforma viagens em benefícios claros com pontos, trilhas de uso e um sistema de recompensas pensado para ônibus e metrô.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
