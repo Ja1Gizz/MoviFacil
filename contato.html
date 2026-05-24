@@ -8,5 +8,62 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
+    <header class="page-header">
+        <div class="container header">
+            <a class="logo" href="index.html">
+                <div class="logo-title">
+                    <span><span class="brand-purple">Movi</span><span class="brand-blue"> Fácil</span></span>
+                    <small>Facilitação de transporte</small>
+                </div>
+            </a>
+            <nav class="site-nav" aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="solucao.html">Solução</a></li>
+                    <li><a href="integrantes.html">Equipe</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html" aria-current="page">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero hero-simple">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1><span class="brand-purple">Contato</span><span class="material-symbols-outlined brand-blue">person_text</span></h1>
+                    <h2>Use o formulário para enviar sua mensagem ou confirme um atendimento direto com nossos canais de email e telefone.</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-grid">
+            <article class="contact-card">
+                <h1><strong>Informações de contato</strong></h1>
+                <h3>Estamos aqui para esclarecer dúvidas e receber sugestões sobre o Movi Fácil.</h3>
+                <h3><strong><span class="material-symbols-outlined">attach_email</span> Email:</strong> movifacil@gmail.com</h3>
+                <h3><strong><span class="material-symbols-outlined">add_call</span>Telefone:</strong> (11) 93278-4516</h3>
+                <h3><strong><span class="material-symbols-outlined">location_on</span>Local:</strong> FIAP Paulista, São Paulo - SP</h3>
+            </article>
+            <article class="form-card">
+                <h3>Formulário de mensagem</h3>
+                <form class="contact-form" action="mailto:movifacil@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Nome completo</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
