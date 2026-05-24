@@ -43,6 +43,22 @@
                 <p class="section-intro">O aplicativo permite que o usuário registre viagens, acumule pontos por cada uso do transporte público e complete missões que geram créditos extras. Esses pontos podem ser trocados por descontos ou por passagens gratuitas.</p>
             </div>
         </selection>
+        
+            <div class="feature-list">
+                <article class="feature-card">
+                    <h3><span class="material-symbols-outlined">mobile_check</span> Carteira digital de pontos</h3>
+                    <p>Os usuários acompanham saldo de pontos, resgates e histórico de uso de forma transparente e clara.</p>
+                </article>
+                <article class="feature-card">
+                    
+                    <h3><span class="material-symbols-outlined">contract</span> Missões de mobilidade</h3>
+                    <p>Desafios e metas incentivam viagens regulares, ajudando a reduzir o uso de carros particulares e a tornar o transporte coletivo mais atrativo.</p>
+                </article>
+                <article class="feature-card">
+                    <h3><span class="material-symbols-outlined">redeem</span> Benefícios instantâneos</h3>
+                    <p>Os pontos podem ser convertidos em descontos ou passagens gratuitas, tornando a experiência mais vantajosa para o usuário.</p>
+                </article>
+            </div>
     </main>
 </body>
 </html>
